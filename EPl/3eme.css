@@ -1,0 +1,32 @@
+*{ background-color: #7f5a83;
+    background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+}
+.body_section{
+    text-align: center;
+    position: relative;
+    padding-top: 15rem;
+    font-size: 30px;
+}
+.btn{
+  font-size: 1.8rem;
+  background: #ff0404;
+  padding: 20px 60px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 1rem;
+  margin-left: 38.5rem;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.35s;
+  outline: none;
+}
+.btn a {
+  background: #ff0404;
+  position: relative;
+  z-index: 2;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+.btn:hover{
+  transform: scale(1.03);
+}

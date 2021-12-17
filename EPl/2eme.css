@@ -1,0 +1,37 @@
+*{ background: #1fa2ff; 
+    background: -webkit-linear-gradient(
+      to right,
+      #a6ffcb,
+      #12d8fa,
+      #1fa2ff
+    ); 
+}
+.body_section{
+    text-align: center;
+    position: relative;
+    padding-top: 15rem;
+    font-size: 30px;
+}
+.btn{
+  font-size: 1.8rem;
+  background: #ff0404;
+  padding: 20px 60px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 1rem;
+  margin-left: 38.5rem;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.35s;
+  outline: none;
+}
+.btn a {
+  background: #ff0404;
+  position: relative;
+  z-index: 2;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+.btn:hover{
+  transform: scale(1.03);
+}

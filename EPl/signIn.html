@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="signIn.css">
+</head>
+
+<body>
+    <div class="login-page">
+        <div class="form">
+            <form class="register-form" id="register-form">
+                <input type="text" placeholder="User name" />
+                <input type="number" placeholder="CIN" />
+                <input type="email" placeholder="Email" />
+                <input type="number" placeholder="Phone number" />
+                <input type="text" placeholder="Address" />
+                <input type="password" placeholder="Password" />
+                <input type="password" placeholder="Confirm Password" />
+                <button>Create</button>
+                <p id="login-btn" class="message">Already Registered? <a href="#"> Login</a></p>
+                <p id="guest-btn" class="guestlink"><a href="index.html"> Enter as a guest</a></p>
+            </form>
+            <form class="login-form" id="login-form">
+                <input type="number" placeholder="Cin" />
+                <input type="password" placeholder="Password" />
+                <button>Login</button>
+                <p id="register-btn" class="message">Not Registered? <a href="#">  Register</a></p>
+                <p id="guest-btn" class="guestlink"><a href="index.html">  Enter as a guest</a></p>
+            </form>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.js">
+    </script>
+    <script>
+        $('.message a').click(function() {
+
+            $('#register-btn').click(() => {
+                $('.register-form').show();
+                $('.login-form').hide();
+            })
+
+            $('#login-btn').click(() => {
+                $('.register-form').hide();
+                $('.login-form').show();
+            })
+        })
+    </script>
+</body>
+
+</html>

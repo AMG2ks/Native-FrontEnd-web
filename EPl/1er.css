@@ -1,0 +1,163 @@
+
+  body {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 100vh;
+    background-color: #000000;
+  }
+  .title{
+    position: relative;
+    text-align: center;
+    top: -200px;
+    left: 530px;
+    color: aliceblue;
+
+  }
+
+
+  .card {
+    height: 379px;
+    width: 300px;
+    border-radius: 10px;
+    transition: all 0.8s;
+    overflow: hidden;
+    background: black;
+    box-shadow: 0 70px 63px -60px #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -200px;
+    top: 100px;
+  }
+
+  .border {
+    height: 369px;
+    width: 290px;
+    border-radius: 10px;
+    transition: all 1s;
+    position: relative;
+  }
+  
+  .border:hover {
+      border: 1px solid white;
+  }
+
+  .card0 {
+    background: url('./fedi.jpg') center center no-repeat;
+    background-size: 300px;
+  }
+      
+  .card0:hover {
+      background: url('./fedi.jpg') left center no-repeat;
+      background-size: 600px;
+  }
+  
+  .card1 {
+    background: url('./guezguez.jpg') center center no-repeat;
+    background-size: 300px;
+  }
+  
+  .card1:hover {
+      background: url('./guezguez.jpg') left center no-repeat;
+      background-size: 600px;
+  }
+  
+  .card2 {
+    background: url('./dahdeh.jpg') center center no-repeat;
+    background-size: 300px;
+  }
+  
+  .card2:hover {
+      background: url('./dahdeh.jpg') left center no-repeat;
+      background-size: 600px;
+  }
+
+  .card h2 {
+    font-family: Arial, sans-serif;
+    color: white;
+    margin: 20px;
+    opacity: 0;
+    transition: all 1s;
+  }
+  
+  .fab {
+    opacity: 0;
+    transition: all 1s;
+  }
+  .fa {
+    opacity: 0;
+    transition: all 1s;
+  }
+  .fal {
+    opacity: 0;
+    transition: all 1s;
+  }
+  
+  .icons {
+    position: absolute;
+    height: 130px;
+    top: 226px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  a {
+    color: white;
+  }
+
+  .card:hover h2 {
+    opacity: 1;
+}
+.card:hover .fa {
+  opacity: 1;
+}
+.card:hover .fal {
+  opacity: 1;
+}
+.card:hover .fab {
+    opacity: 1;
+}
+.enjoy{
+  font-size: 25px;
+}
+.btn{
+  border: 2px solid black;
+  font-size: 1.8rem;
+  background: #000000;
+  padding: 20px 60px;
+  border-radius: 8px;
+  
+  margin-top: 1rem;
+  margin-left: 38.5rem;
+  cursor: pointer;
+  position: relative;
+  left: -315px;
+  top: -35px;
+  transition: all 0.35s;
+  outline: none;
+
+}
+
+.btn a {
+  background: transparent;
+  position: relative;
+  z-index: 2;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  
+  
+}
+
+.btn:hover{
+  transform: scale(1.03);
+  border-color:rgb(204, 171, 204);
+  
+  
+}
